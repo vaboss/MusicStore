@@ -1,5 +1,5 @@
 # online-music-store
 
-Online Music Store - Manage Your Personal Music Library
+Online Music Store - Manage Your Personal & Professional Music Library
 
-Created by: @umeshkumar21
+Created by: @varunarora
