@@ -1,0 +1,29 @@
+{
+  "name": "online-music-store",
+  "version": "1.0.0",
+  "description": "manage your personal & professional music library",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vaboss/MusicStore.git"
+  },
+  "keywords": [
+    "node",
+    "music",
+    "songs",
+    "love",
+    "project"
+  ],
+  "author": "@varunarora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaboss/MusicStore/issues"
+  },
+  "homepage": "https://github.com/vaboss/MusicStore#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
