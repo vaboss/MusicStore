@@ -7,6 +7,7 @@
 var express = require('express');
 var fs = require('fs');
 
+
 var app = express();
 
 app.use('/public', express.static(__dirname + '/public'));
@@ -18,13 +19,13 @@ app.get('/',function(req,res){
 
 });
 
-app.listen(3003,function(){
+app.listen(process.env.PORT || 3003,function(){
 	console.log('App listening on port 3003!');
 });
 
 //for streaming
 
-app.get('/music', function(req,res){
+app.get('/music', functiproon(req,res){
 	
 	var fileId = req.query.id; 
 	var file = __dirname + '/music/' + fileId;
